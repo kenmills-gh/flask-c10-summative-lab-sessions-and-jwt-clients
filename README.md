@@ -16,6 +16,13 @@ A secure Flask RESTful API backend for a productivity Notes application. It feat
 ## Run Instructions
 Start the server by running: `python app.py` 
 The API will run on `http://127.0.0.1:5555`.
+Switch to a new terminal and run the commands below:
+```bash
+   cd client-with-sessions
+   npm install
+   npm start
+```
+The application will open in your browser at http://localhost:4000 and is set up to proxy
 
 ## API Endpoints
 * **POST `/signup`**: Registers a new user.
