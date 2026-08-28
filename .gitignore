@@ -1,0 +1,56 @@
+# --- Python & Flask ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Virtual Environments & Pipenv ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Database & Instance Files ---
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Node & React (Frontend Clients) ---
+**/node_modules/
+**/build/
+**/dist/
+.cache/
+
+# --- Environment Variables & Local Config ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- IDEs & Operating Systems ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
